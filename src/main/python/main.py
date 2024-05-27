@@ -10,7 +10,7 @@ import pandas as pd
 import pdfplumber
 from fbs_runtime.application_context.PyQt5 import ApplicationContext
 from PyQt5.QtWidgets import QFileDialog, QMainWindow, QMessageBox  # ignore
-from qtui.rpf_ui import Ui_MainWindow
+from rpf_ui import Ui_MainWindow
 
 START_TEXT = "(m³/dia) (kgf/cm²) (m)"
 END_TEXT = "Temperaturas"
